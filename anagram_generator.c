@@ -134,7 +134,7 @@ char** findAnagrams(char *a) {
 	// Memory is allocated for the 2d array that will have
 	// the permutations in list form.
 	char** permutations = NULL;
-	permutations = (char**)malloc(fact*sizeof(char*));  // Memory for hight
+	permutations = (char**)malloc(fact*sizeof(char*));  // Memory for height
 	if (permutations == NULL) {
 		printf("ERROR RETURNED FROM [permutation1]: NO MEMORY ALLOCATED\n");
 		return (char**)-1;
@@ -150,7 +150,7 @@ char** findAnagrams(char *a) {
 	// Memory is allocated for the 2d array that will have
 	// the permutations dispose of duplicates in permutations.
 	char** temp = NULL;
-	temp = (char**)malloc(fact*sizeof(char*));  // Memory for hight
+	temp = (char**)malloc(fact*sizeof(char*));  // Memory for height
 	if (temp == NULL) {
 		printf("ERROR RETURNED FROM [temp1]: NO MEMORY ALLOCATED\n");
 		return (char**)-1;
@@ -166,7 +166,7 @@ char** findAnagrams(char *a) {
 	// Memory is allocated for the 2d array that will have
 	// the anagrams in list form.
 	char** anagrams = NULL;
-	anagrams = (char**)malloc(fact*sizeof(char*));  // Memory for hight
+	anagrams = (char**)malloc(fact*sizeof(char*));  // Memory for height
 	if (anagrams == NULL) {
 		printf("ERROR RETURNED FROM [anagrams1]: NO MEMORY ALLOCATED\n");
 		return (char**)-1;
